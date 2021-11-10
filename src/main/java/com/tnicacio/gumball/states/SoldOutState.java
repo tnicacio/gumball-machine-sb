@@ -1,12 +1,14 @@
 package com.tnicacio.gumball.states;
 
 import com.tnicacio.gumball.dtos.GumballMachineDto;
-import org.springframework.stereotype.Component;
 
-@Component
 public class SoldOutState implements State {
 
     private GumballMachineDto gumballMachine;
+
+    public SoldOutState(GumballMachineDto gumballMachine) {
+        this.gumballMachine = gumballMachine;
+    }
 
     @Override
     public void insertCoin() {
@@ -26,11 +28,6 @@ public class SoldOutState implements State {
     @Override
     public void dispense() {
         throw new IllegalStateException("No gumball dispensed");
-    }
-
-    @Override
-    public void setMachine(GumballMachineDto gumballMachine) {
-        this.gumballMachine = gumballMachine;
     }
 
 }

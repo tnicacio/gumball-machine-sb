@@ -2,12 +2,14 @@ package com.tnicacio.gumball.states;
 
 import com.tnicacio.gumball.dtos.GumballMachineDto;
 import com.tnicacio.gumball.entities.enums.StateType;
-import org.springframework.stereotype.Component;
 
-@Component
 public class SoldState implements State {
 
     private GumballMachineDto gumballMachine;
+
+    public SoldState(GumballMachineDto gumballMachine) {
+        this.gumballMachine = gumballMachine;
+    }
 
     @Override
     public void insertCoin() {
@@ -34,11 +36,6 @@ public class SoldState implements State {
         } else {
             gumballMachine.setStateType(StateType.NO_CREDIT);
         }
-    }
-
-    @Override
-    public void setMachine(GumballMachineDto gumballMachine) {
-        this.gumballMachine = gumballMachine;
     }
 
 }
