@@ -4,7 +4,7 @@
 
 Considere a implementação de uma máquina automática
 para venda de bolinhas de borracha. O problema pode ser modelado como uma
-máquina de estados, compreendendo, à princípio, os seguintes estados:
+máquina de estados, compreendendo, à princípio, os seguintes **estados**:
 
 1. *Sem Crédito*: este é um estado de repouso, no qual a máquina aguarda o
 recebimento de moedas. Neste estado nenhuma compra pode ser efetivada, e
@@ -22,7 +22,7 @@ moedas do comprador;
 ser entregue ao cliente, o estoque deve ser atualizado, e a máquina deve voltar
 ao estado de espera;
 
-5. Vencedor: semelhante ao estado anterior. Este estado corresponde a uma
+5. *Vencedor*: semelhante ao estado anterior. Este estado corresponde a uma
 venda sorteada em promoção, na qual o comprador ganha duas bolinhas ao
 invés de uma. Este caso deve ocorrer em aproximadamente 10% das vendas.
 
@@ -154,3 +154,9 @@ Dispara a ação *virar manivela* na máquina de uuid informado.
 
 ### **[PUT]** /gumball-machines/{uuid}/dispense
 Dispara a ação *entregar* na máquina de uuid informado.
+
+
+## Demonstração das Funcionalidades
+https://user-images.githubusercontent.com/50798315/141039069-a8961757-184c-4b1f-960d-d3a481deea41.mp4
+
+
