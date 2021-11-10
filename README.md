@@ -1,6 +1,6 @@
 # :candy: Gumball Machine
 
->Implementação da Gumball Machine com Spring, utilizada para descrever o padrão de projeto State no livro Head First Design Patterns: A Brain-Friendly Guide.
+> Uma implementação, com Spring, da Gumball Machine utilizada para descrever o padrão de projeto State do livro Head First Design Patterns: A Brain-Friendly Guide.
 
 Considere a implementação de uma máquina automática
 para venda de bolinhas de borracha. O problema pode ser modelado como uma
