@@ -40,7 +40,7 @@ deve compreender as seguintes **ações**:
 4. Entregar: ação interna da máquina, para liberar bolinha(s) caso haja crédito
 e estoque (esta ação atualiza o estoque da máquina).
 
-## Padrão de Projetos STATE
+# Padrão de Projetos STATE
 
 > O padrão *State* permite que um objeto altere seu comportamento quando muda o seu estado interno. 
 
@@ -110,7 +110,7 @@ public class SoldState implements State {
 }
 ```
 
-## Serviço no Heroku
+# Serviço no Heroku
 https://ifc-gumball.herokuapp.com
 
 ## Rotas do CRUD
@@ -156,7 +156,7 @@ Dispara a ação *virar manivela* na máquina de uuid informado.
 Dispara a ação *entregar* na máquina de uuid informado.
 
 
-## Demonstração das Funcionalidades
+# Demonstração das Funcionalidades
 https://user-images.githubusercontent.com/50798315/141039069-a8961757-184c-4b1f-960d-d3a481deea41.mp4
 
 
