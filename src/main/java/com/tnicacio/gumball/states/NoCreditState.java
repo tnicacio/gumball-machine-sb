@@ -1,13 +1,13 @@
 package com.tnicacio.gumball.states;
 
-import com.tnicacio.gumball.dtos.GumballMachineDto;
+import com.tnicacio.gumball.entities.GumballMachine;
 import com.tnicacio.gumball.entities.enums.StateType;
 
 public class NoCreditState implements State {
 
-    private GumballMachineDto gumballMachine;
+    private GumballMachine gumballMachine;
 
-    public NoCreditState(GumballMachineDto gumballMachine) {
+    public NoCreditState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;
     }
 

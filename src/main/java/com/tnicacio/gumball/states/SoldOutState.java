@@ -1,12 +1,12 @@
 package com.tnicacio.gumball.states;
 
-import com.tnicacio.gumball.dtos.GumballMachineDto;
+import com.tnicacio.gumball.entities.GumballMachine;
 
 public class SoldOutState implements State {
 
-    private GumballMachineDto gumballMachine;
+    private GumballMachine gumballMachine;
 
-    public SoldOutState(GumballMachineDto gumballMachine) {
+    public SoldOutState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;
     }
 

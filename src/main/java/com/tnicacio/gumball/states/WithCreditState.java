@@ -1,15 +1,15 @@
 package com.tnicacio.gumball.states;
 
-import com.tnicacio.gumball.dtos.GumballMachineDto;
+import com.tnicacio.gumball.entities.GumballMachine;
 import com.tnicacio.gumball.entities.enums.StateType;
 
 import java.util.Random;
 
 public class WithCreditState implements State {
 
-    private GumballMachineDto gumballMachine;
+    private GumballMachine gumballMachine;
 
-    public WithCreditState(GumballMachineDto gumballMachine) {
+    public WithCreditState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;
     }
 
