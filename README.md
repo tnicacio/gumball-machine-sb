@@ -110,8 +110,12 @@ public class SoldState implements State {
 }
 ```
 
-# Serviço no Heroku
-https://ifc-gumball.herokuapp.com
+# Quero testar, como faz?
+## Localmente
+Após clonar este repositório, basta executar ```mvn spring-boot:run``` na pasta raiz do projeto
+
+## Serviço no Heroku
+Podes utilizar a api já disponível em: https://ifc-gumball.herokuapp.com
 
 ## Rotas do CRUD
 
